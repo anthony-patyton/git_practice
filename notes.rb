@@ -3,6 +3,7 @@ GIT
   - keep track of your coding version 
   - 2005 LinusTorvalds
   - store, collabs 
+
 Github
   - all versions of your code 
   - bitbuckets 
@@ -13,29 +14,39 @@ Github
     - 7.5 Billion minute  14,269 years 
     - $100,000 / year 75,000 years 
     - Canada $208.33
+
+
 brew install git 
 ssh 
+
 Repositories
 - all projects will be a repository
+
 Warning* 
 - system directory as a repo (Desktop, Docs, Application)
 - never create a repo in another repo 
 - delete .git 
-  rm -rf .git 
+   rm -rf .git 
+  
 git init 
 - create a repo in the current folder you are in
 - run once per project 
+
 git status 
 - info coding version process
+
 .gitignore
 - anything in the file will be ignored
+
 git add .
 - track these changes 
+
 git commit -m ''
 - label the changes you just make
 - have already done 
 - < 50 characters
 - useful, what it is you worked on
+
 git log
 git log --oneline
 - show the commits
@@ -53,20 +64,26 @@ VIM - editor in the term
 command, 
 write stuff insert mode
 i 
-esc out of insert mode into command 
+esc out of insert mode into command
+
 :wq
 - resolving conflict 
+
 git commit --amend 
 - want to change last commit message
+
 git hub stage 
 - create a github repo 
  - once per project
+
 git remote add origin *paste what you copy 
 - ssh 
 - connect your local repo to the github repo 
+
 git push origin master
 - pushes all recents changes to github 
 collab
+
 Branches
 - master
   most up to date working code 
